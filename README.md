@@ -29,7 +29,7 @@
 
 ### デモアプリのインストール
 
-[ここから](https://github.com/kitao/pyxel)apkファイルをダウンロードしたのち、スマートフォンにインストールしてください。
+[ここから](https://github.com/NITS-AndoLab-KANNO/major_research/blob/feature/1/app-debug.apk)apkファイルをダウンロードしたのち、スマートフォンにインストールしてください。
 インストール方法は各自で調べていただくようお願いいたします。
 
 ### 評価方法
