@@ -1,71 +1,55 @@
-# Physics_Sim_Py
+<img src="https://img.shields.io/badge/-Android Studio-white.svg?style=for-the-badge&logo=android&logoColor=#3DDC84">
 
-"Physics_Sim_Py" is a tutorial of physics simulations with Python.
+# ARを用いた震災遺構の案内に関する研究 -音声ARの実現-
 
-# DEMO
+専攻研究の論文執筆にあたり、作成したデモアプリケーションの評価にご協力ください。
 
-You can learn how to making cute physics simulations (looks retro game).
+「Google Play 開発者サービス(AR)」に対応したAndroidデバイスを所持していることが条件となります。[ここ](https://developers.google.com/ar/devices?hl=ja#google_play_devices)にアクセスし、普段お使いの機種がデバイスリストに掲載されている場合のみ、以下を読み進めてご協力ください。
 
-![](https://cpp-learning.com/wp-content/uploads/2019/05/pyxel-190505-161951.gif)
+## 研究背景
 
-This animation is a "Cat playing on trampoline"!
-You can get basic skills for making physics simulations.
+東日本震災から10年以上経過した今、月日の経過による記憶の風化や、跡地利活用による景観の風化などが問題となっています。これらの課題を解決するため，震災遺構の案内のためのAndroidアプリケーションを開発する研究を行っています．
 
-# Features
+今年度の専攻研究では、先行研究[1]で実装されたAR機能の改善に取り組んでいます。AR機能とは、震災遺構の周辺でカメラをかざすと、ARとして震災に関する情報などが表示される機能のことです。このAR機能に音声再生機能を追加した「音声AR機能」の開発・実装を行うことが専攻研究での目標となっています。
 
-Physics_Sim_Py used [pyxel](https://github.com/kitao/pyxel) only.
+音声AR機能の具体例として、既存のAR機能で震災遺構の震災前の姿を表示している際に，震災前の人混みや生活などを再現した音声を左右や方向での音量の違いを付けて流すことを考えています。これにより，震災遺構周辺における震災前の街並みを再現・復元することを目標としています。また、この機能を利用することで，目で見るだけでなく耳で聴く震災学習を行うことができ，より印象的で記憶に残るようになると考えています。
 
-```python
-import pyxel
-```
-[Pyxel](https://github.com/kitao/pyxel) is a retro game engine for Python.
-You can feel free to enjoy making pixel art style physics simulations.
+音声ARの利用例は参考文献[2][3]をご覧ください。
 
-# Requirement
+## デモアプリの評価
 
-* Python 3.6.5
-* pyxel 1.0.2
+### デモアプリの評価内容
 
-Environments under [Anaconda for Windows](https://www.anaconda.com/distribution/) is tested.
+デモアプリの検証場所は本校正門前です。
 
-```bash
-conda create -n pyxel pip python=3.6 Anaconda
-activate pyxel
-```
+評価項目は以下の2点です。
 
-# Installation
+1. ARオブジェクトと端末との距離によって音量が正しく変化するか
+2. ARオブジェクトに対する端末の向きによって左右の音声比率が正しく変化するか
 
-Install Pyxel with pip command.
+### デモアプリのインストール
 
-```bash
-pip install pyxel
-```
+[ここから](https://github.com/kitao/pyxel)apkファイルをダウンロードしたのち、スマートフォンにインストールしてください。
+インストール方法は各自で調べていただくようお願いいたします。
 
-# Usage
+### 評価方法
 
-Please create python code named "demo.py".
-And copy &amp; paste [Day4 tutorial code](https://cpp-learning.com/pyxel_physical_sim4/).
+以下の手順に従って実施してください。
 
-Run "demo.py"
+1. スマートフォンとイヤフォンを接続し、両耳に装着してください。
+2. 正門前で本アプリを起動します。
+3. スマートフォンで周囲の風景を写しながら360度回転します。
+4. 画面を1回タップし、ARオブジェクトが表示されたことと音声が流れ始めたことを確認してください。
+5. 表示されているARオブジェクトに対して近づいたり離れたり、端末の向きを変えたりして音声の変化を確かめてください。
 
-```bash
-python demo.py
-```
+### 評価記入
 
-# Note
+[ここ](https://forms.office.com/Pages/ResponsePage.aspx?id=XYP-cpVeEkWK4KezivJfyJuviKyVi0pFmcp6vKlePdBUMjRHQUlUNTNCT1dRRU9QSlo5RVc3U0sxVi4u)へアクセスし、指示に従ってデモアプリの評価をお願いいたします。
 
-I don't test environments under Linux and Mac.
+## 参考文献
 
-# Author
+[1] 上関啓斗，三浦竜矢，安藤敏彦，“AR を用いた震災記憶の提示に関する研究”，信学会総合大会，H-3-4，2021.
 
-* Hayabusa
-* R&D Center
-* Twitter : https://twitter.com/Cpp_Learning
+[2] SARF 君の日常を"音楽"が拡張する https://sarf.jp/ （2023/2/11 最終アクセス）
 
-# License
-
-"Physics_Sim_Py" is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
-
-Enjoy making cute physics simulations!
-
-Thank you!
+[3] VOTORY – 音声の可能性を拡げ，音声で世界を拡張する．https://votory.jp/ （2023/2/11 最終アクセス）
