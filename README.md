@@ -4,7 +4,7 @@
 
 専攻研究の論文執筆にあたり、作成したデモアプリケーションの評価にご協力ください。
 
-「Google Play 開発者サービス(AR)」に対応したAndroidデバイスを所持していることが条件となります。[こちら](https://developers.google.com/ar/devices?hl=ja#google_play_devices)にアクセスし、普段お使いの機種がデバイスリストに掲載されている場合のみ、以下を読み進めてご協力ください。
+「Google Play 開発者サービス(AR)」に対応したAndroidデバイスを所持していることが条件となります。[こちら](https://play.google.com/store/apps/details?id=com.google.ar.core&hl=ja&gl=US)にアクセスし、アプリがインストールされている場合、もしくは[こちら](https://developers.google.com/ar/devices?hl=ja#google_play_devices)のデバイスリストに普段お使いの機種が掲載されている場合にのみ、以下を読み進めてご協力ください。
 
 ## 研究背景
 
